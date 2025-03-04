@@ -7,10 +7,8 @@ document.addEventListener("keydown", function (event) {
   } else if (event.key === "s") {
     keyDiv.style.backgroundColor = "orange";
   } else if (event.key === "d") {
-    keyDiv.style.backgroundColor = "lightblue";
-  }
-
-  if (event.key === "q") {
+    keyDiv.style.backgroundColor = "lightskyblue";
+  } else if (event.key === "q") {
     crearNuevoDiv("purple");
   } else if (event.key === "w") {
     crearNuevoDiv("gray");
